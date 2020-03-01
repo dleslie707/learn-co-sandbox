@@ -1,0 +1,47 @@
+famous_cats = ["lil' bub", "grumpy cat", "maru"]
+
+p sorted_cats = famous_cats.sort!
+
+puts""
+p famous_cats
+
+puts""
+
+famous_wizards = ["Dumbledore", "Gandalf", "Merlin"]
+
+p famous_wizards.reverse!
+p famous_wizards
+
+puts""
+
+p famous_cats.first
+
+puts""
+
+p famous_cats.last
+
+puts""
+
+p famous_cats.include? ("woahhhhhhh")
+
+puts""
+
+p famous_cats.include? ("Maru")
+
+puts ""
+
+p famous_cats.include? ("maru")
+
+puts""
+
+p famous_cats.size
+
+puts""
+
+a_bassist = ['john', 'paul', 'jone']
+
+p a_bassist.length
+p a_bassist.size
+
+puts""
+

@@ -1,0 +1,35 @@
+pets = ["Dog", "rock", "Cat", "turtle"]
+
+pets << "Hamster"
+
+
+
+
+=begin
+def output_array_elements(array)
+  counter = 0
+  
+  while array[counter] do
+  puts array[counter]
+  counter += 1
+  end
+  puts""
+end
+
+output_array_elements(pets)
+
+output_array_elements(["hello", "how are you?", "goodbye!"])
+=end 
+
+def output_array_elements(array)
+  counter = 0
+  
+  while counter < array.length do
+    puts array[counter]
+    counter += 1
+    end
+    puts""
+end
+
+output_array_elements(pets)
+

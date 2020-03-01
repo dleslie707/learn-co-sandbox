@@ -1,0 +1,13 @@
+current_weather = "sunny"
+
+case current_weather = "rainy" # assign value to current_weater before/outside of case and or in beginning of case statement
+
+  when "sunny" # translated: when current_weater=="sunny"
+    puts "Wear those shades King"
+  when "rainy"
+    puts "Please wear rain boats"
+  when "snow"
+    puts "Wear that big coat sis"
+  else
+    puts "That's not an option here"
+  end

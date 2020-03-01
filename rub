@@ -1,0 +1,91 @@
+instructors = ["Ian",
+  "Johann", "Alex",
+]
+
+students = ["Andrew",
+  "Howard", "Terrence", 
+  "Daniel", "Rachel",
+  "Natalie"]
+  
+school = {
+    instructors: ["Ian", "Johann", "Alex"],
+    students: ["Ian", "Johann", "Alex"],
+    clasess: ["Software Engineering", "Data Science"]
+}
+  
+p instructors =
+  school[:instructors]
+puts""
+
+p instructors[0]
+puts""
+
+p school[:instructors][0]
+  
+
+#Nesting a hash within a hash
+homer = {name: "Homer Simpson",
+         occupation: "Nuclear Safety Inspector", 
+         hobbies: ["Watching TV", "Eating donuts"]
+         }
+
+jon = {name: "Jon Snow", 
+       occupation: "King in the North", 
+       hobbies: ["Fighting white walker", "Knowing nothing"]
+       }
+
+fred = {name: "Mr. Roger", 
+        occupation: "Neighbor",
+        hobbies: ["Making children feel loved and appreciated",
+        "Singing songs"]}
+ 
+ 
+    #this array makes things complicated, having everything in #array makes it harder to find a specifc hash
+   [ {name: "Homer Simpson",
+         occupation: "Nuclear Safety Inspector", 
+         hobbies: ["Watching TV", "Eating donuts"]
+         },
+
+          {name: "Jon Snow", 
+       occupation: "King in the North", 
+       hobbies: ["Fighting white walker", "Knowing nothing"]
+       },
+ 
+            {name: "Mr. Roger", 
+        occupation: "Neighbor",
+        hobbies: ["Making children feel loved and appreciated",
+        "Singing songs"]}
+]
+
+tv_show_characters = {
+
+"Homer Simpson" => {name: "Homer Simpson",
+         occupation: "Nuclear Safety Inspector", 
+         hobbies: ["Watching TV", "Eating donuts"]},
+"Jon Snow" => {name: "Jon Snow", 
+       occupation: "King in the North", 
+       hobbies: ["Fighting white walker", "Knowing nothing"]
+       },
+"Mr. Roger" => {name: "Mr. Roger", 
+        occupation: "Neighbor",
+        hobbies: ["Making children feel loved and appreciated",
+        "Singing songs"]}
+}
+
+p tv_show_characters["Homer Simpson"]
+puts""
+
+p tv_show_characters["Jon Snow"][:occupation]
+
+p tv_show_characters["Mr. Roger"][:hobbies][1]
+
+
+
+
+
+
+
+
+
+  
+  

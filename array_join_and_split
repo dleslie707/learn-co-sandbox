@@ -1,0 +1,9 @@
+p ["This", "is", "a", "test"].join(' ')
+puts""
+p ["This", "is", "a", "test"].join('_')
+puts""
+p ["This", "is", "a", "test"].join('*')
+puts""
+p %w[this is also a test]
+puts""
+p %w[this is also a test].join(" ").capitalize

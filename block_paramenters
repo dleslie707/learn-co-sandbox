@@ -1,0 +1,41 @@
+number = 5
+
+number.times do
+  puts "It will count #{number} times"
+end
+puts""
+
+counter = 0 
+array = [1,2,3,4,5]
+
+while array[counter] do
+  puts array[counter]
+  counter += 1
+end
+
+puts""
+
+5.times do |index|
+  puts index
+end
+puts""
+
+5.times do |hot_dog|
+  puts hot_dog
+end
+puts""
+
+array = [1,2,3,4,"t"]
+
+
+length = array.length
+
+length.times do |index|
+  puts array[index]
+end
+puts""
+
+
+array.length.times { |index|
+  puts array[index]
+}

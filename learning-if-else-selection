@@ -1,0 +1,32 @@
+#if-else
+chance_of_rain = 1
+puts "Lets go outside!"
+if chance_of_rain > 0.5
+  puts "Pack an umbrella!"
+  else
+  puts "Enjoy this pretty day"
+  end
+  puts "Oh, and always wear sunscreen"
+  
+  #if-elsif-else
+  chance_of_rain = -23
+if chance_of_rain <=0.25
+  puts "Pack a sun shelter"
+elsif (chance_of_rain > 0.25 && chance_of_rain <0.75)
+  puts "Pack an umbrella"
+  else
+  puts "Stay home and read Hegel."
+  end
+  
+  #different way of if statement.. quicker
+  puts "You know what year it is??"
+this_year = 2012
+puts "Hey, it's 2019" if 
+this_year == 2019
+
+#WAY of saying if-not= unless
+puts "You know what year it is??"
+this_year = Time.now.year
+puts "Hey, it's not 2019" unless 
+this_year == 2019
+

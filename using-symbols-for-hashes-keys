@@ -1,0 +1,29 @@
+dog_one = {
+  :name => "Luca",
+  :breed => "German Shepherd"
+}
+
+dog_two = {
+  :name => "Lola",
+  :breed => "Giant Schnauzer"
+}
+
+:i_am_a_symbol
+
+p :i_am_a_symbol.object_id
+
+p "I am a string".object_id
+
+p "I am a string".object_id
+
+dog_one = {
+  name: "Luca",
+  breed: "German Shepherd"
+}
+
+dog_two = {
+  name: "Lola",
+  breed: "Giant Schnauzer"
+}
+
+

@@ -1,0 +1,39 @@
+def greeting_a_person(name)
+  puts "Hello #{name}"
+end
+
+greeting_a_person("Dada")
+
+name= "Maria"
+
+greeting_a_person(name)
+
+puts ""
+
+def greeting_programmer(name, language)
+  puts "Hello, #{name}. We heard you are a great #{language} programmer"
+end
+
+greeting_programmer("Dada", "c++")
+
+greeting_programmer("ashley", "python")
+
+puts""
+
+def greeting(name = "neighbor")
+  puts "Hello #{name}"
+end
+
+greeting
+puts ""
+greeting("Dada is Cool")
+
+puts "" 
+
+def greeting_programmer(name, language = "computer")
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
+end
+
+greeting_programmer("Dada")
+
+greeting_programmer("Dada","c++")

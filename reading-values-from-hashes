@@ -1,0 +1,27 @@
+pets = {"cat" => "Maru", "dog" => "Pluto"}
+
+p pets["cat"]
+
+meals = {:breakfast => "cereal", :lunch => "fish sandwish", :dinner => "pasta sauce"}
+
+p meals[:lunch]
+
+healthy_things = {1 => "learn to garden", 2 => "plant seeds", 10 => "eat vegetables"}
+
+p healthy_things[10]
+
+key = :name
+
+user_info = {:name => "Ada", :email => "ada.lovelace@famous_computer_inventors.com"}
+
+p user_info[key]
+
+grocery_items = {:apples => 10, :pears => 4, :peaches => 2, :plums => 13}
+
+p grocery_items[:rambutants]
+
+if grocery_items[:rambutan]
+  puts "Rambutan present!"
+else
+  puts "No rambutan."
+end
